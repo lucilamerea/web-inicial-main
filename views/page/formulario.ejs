@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('../partials/meta.ejs')%>
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Creando logros.png" alt="Banner creando logros">
+    	<h1 id="marca">Creando logros</h1>
+
+
+    </header>
+
+    <nav class="navegador">
+        <div class="inicio"><a href="index.html">  Inicio </a></div>
+        <div class="Propuesta"><a href="./index2.html">Propuesta</a></div>
+        <div class="Informacion interesante"> <a href="./index2.html">Información de interesante</a></div>
+    	<div class="contacto"><a id href="#redireccion">Contacto </a></div>
+        
+    </nav>
+    
+  <div class="cuadroForm">
+    <form action="" method="">
+        <H1>Pre inscripción, solicitud de información</H1>
+        <p>Por favor completa el siguiente formulario y nos contactaremos contigo</p>
+        <br>
+
+        <label for="datos" class="titulo"> Nombre y apellido del niño</label>
+        <br>
+           <input type="text" id="Nombre" name="Nombre y apellido del niño" placeholder="Escriba nombre completo" class="completar">
+         
+          <br>
+        <label for="datos" class="titulo"> Nombre y apellido del adulto</label>
+          <br>
+            <input type="text" id="Nombre" name="Nombre y apellido del adulto que lo preincreibe" placeholder="Escriba nombre completo" class="completar">
+          <br>
+
+        <label for="Parentezco" class="titulo">Parentezco</label>
+          <br>
+            <input type="text" id="Nombre" name="parentezco con el niño" class="completar">
+          <br>
+          <br>
+
+        <label for="email" class="titulo"> Correo electronico</label>
+        <br>
+          <input type="email" class="completar"> 
+         <br>
+        <label for="telefono" class="titulo">Número para conectarnos por whatsapp</label>
+         <br>
+          <input type="text" name="telefono" required class="completar">
+         <br>
+         <br>
+        <label for="Opciones" class="titulo"> Elija por la opcion que tiene mayor interes</label>
+         <br>
+         <br>
+
+          <label for="Quiero conocer la propuesta">Quiero conocer la propuesta y el espacio</label>
+          <input type="radio" id="consultageneral" name= "seleccion"  value="conocer la propuesta y espacio">
+          <br>
+          <label for="Quiero conocer la propuesta">Jornada anual de creación</label>
+          <input type="radio" id="Jornada anual" name= "seleccion"  value="Jornada anual">
+          <br>
+          <label for="Quiero conocer la propuesta">Colonia de verano</label>
+          <input type="radio" id="Vacaciones" name= "seleccion"  value="colonia">
+          <br>
+          <br>
+          <input type="submit" value="Enviar" class="enviar">
+    </form>
+  </div>
+        
+
+
+
+
+    
+  <%-include('../partials/footer.ejs')%>
+
+  <link rel="stylesheet" href="./styleformulario.css">
+    
+</body>
+</html>

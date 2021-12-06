@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucilamerea/WEB-inicial.git"
+  },
+  "author": "LucilaMerea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucilamerea/WEB-inicial/issues"
+  },
+  "homepage": "https://github.com/lucilamerea/WEB-inicial#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}
