@@ -147,18 +147,11 @@ address{
 	margin-left: 10px;
 	margin-top: 10px;
 }
-.whatsapp{
+.redes{
 	width: 40px;
 	height: 40px;
 }
-.facebook{
-	width: 40px;
-	height: 40px;
-}
-.instagram{
-	width: 40px;
-	height: 40px;
-}
+
 
 @media(max-width:780px) {
 	body{

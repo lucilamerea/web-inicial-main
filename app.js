@@ -2,7 +2,7 @@ const express= require('express');
 const app= express();
 const path = require('path');
 
-const databaseConnection = require('../config/database');
+const databaseConnection = require('./config/database');
 
 
 //coneccion con MySQL
@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 
 app.get('/index',(req,res)=>{
-    res.render('index')
+    res.render('./page/index');
     //res.send('index')
 });
 
