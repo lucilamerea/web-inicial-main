@@ -2,8 +2,6 @@ const databaseConnection=require('../../config/database');
 
 
 
-
-
 const getForm= (req,res)=>{
 
     res.render('../views/page/formulario');

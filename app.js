@@ -1,12 +1,11 @@
 const express= require('express');
 const app= express();
 const path = require('path');
-
+const routes=require ('./routes/proyecto-routes');
 const databaseConnection = require('./config/database');
 
 
-//coneccion con MySQL
-databaseConnection.connect();
+
 
 app.use(express.json());
 
@@ -31,9 +30,10 @@ app.get('/formulario',(req,res)=>{
 
 
 
+app.use("",routes);
 
-
-
+//coneccion con MySQL
+databaseConnection.connect();
 
 
 
