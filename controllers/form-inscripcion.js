@@ -1,4 +1,4 @@
-const databaseConnection=require('../../config/database');
+const databaseConnection=require('./config/database');
 
 
 

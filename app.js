@@ -30,7 +30,7 @@ app.get('/formulario',(req,res)=>{
 
 
 
-app.use("",routes);
+app.use(" ",routes);
 
 //coneccion con MySQL
 databaseConnection.connect();
